@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Link from 'next/link';
 import ReactMarkdown from 'react-markdown';
-import content from './Bio.md';
+import content from '../content/Bio.md';
 
 const Home: NextPage = () => {
   return (
