@@ -4,6 +4,7 @@
 
 body {
   border-top: 5px solid #FFD166;
+  background: #f8f6ef;
 }
 
 a, a:visited {
@@ -13,4 +14,23 @@ a, a:visited {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media print {
+  body {
+    background: #fff;
+    border-top: none;
+  }
+
+  a, a:visited {
+    color: #333;
+  }
+  
+  header {
+    padding-top: 0 !important;
+  }
+
+  nav { 
+    font-size: 0.75rem;
+  }
 }

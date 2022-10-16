@@ -54,7 +54,7 @@
       "startDate": "2021-11-01",
       "endDate": "2017-01-01",
       "highlights": [
-        "Helped build a stealth financial research and chat app from the ground up",
+        "Helped build a stealth financial research app from the ground up",
         "NodeJS, React, Electron, RethinkDB",
         "Built chat feature, wrote batch jobs, dealt with realtime data"
       ]
