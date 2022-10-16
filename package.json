@@ -2,7 +2,7 @@
   "name": "nikorablin.github.io",
   "private": true,
   "scripts": {
-    "dev": "next dev && open localhost:3000",
+    "dev": "next dev && open http://localhost:3000",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
