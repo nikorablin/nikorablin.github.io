@@ -1,0 +1,159 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Nik Korablin",
+    "label": "Full-stack JS Engineer",
+    "email": "nikorablin@gmail.com",
+    "phone": "7178240189",
+    "url": "http://nikorablin.io",
+    "location": {
+      "postalCode": "PA 17543",
+      "city": "Lititz",
+      "countryCode": "US",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://linkedin.com/in/nikorablin"
+      },
+      {
+        "network": "Github",
+        "url": "https://github.com/nikorablin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "The Knot",
+      "position": "Engineering Manager",
+      "url": "https://theknotww.com",
+      "startDate": "2021-11-01",
+      "highlights": [
+        "Manage a team of 4 engineers",
+        "Work on a large-scale React eCommerce platform",
+        "Node misroservices leveraging ElasticSearch and RabbitMQ"
+      ]
+    },
+    {
+      "name": "iFIT",
+      "position": "Technical Lead",
+      "url": "https://ifit.com",
+      "startDate": "2018-04-01",
+      "endDate": "2021-10-30",
+      "highlights": [
+        "Worked as the lead enginner on a team of 6 engineers",
+        "Worked on React front-end applications for embedded devices",
+        "Built Typescript microservices on AWS Lambda",
+        "Emphasis on good, testable code"
+      ]
+    },
+    {
+      "name": "Fin-tech start up",
+      "position": "Senior Full-stack JS Engineer",
+      "startDate": "2021-11-01",
+      "endDate": "2017-01-01",
+      "highlights": [
+        "Helped build a stealth financial research and chat app from the ground up",
+        "NodeJS, React, Electron, RethinkDB",
+        "Built chat feature, wrote batch jobs, dealt with realtime data"
+      ]
+    },
+    {
+      "name": "WhoseYourLandlord.com",
+      "position": "CTO",
+      "url": "https://wyl.co",
+      "startDate": "2016-05-01",
+      "endDate": "2017-01-01",
+      "highlights": [
+        "Built the entire application from the start",
+        "Ruby on Rails and React",
+        "Managed a few junior developers"
+      ]
+    },
+    {
+      "name": "Vanguard Group",
+      "position": "Java Engineer",
+      "url": "https://vanguard.com",
+      "startDate": "2013-06-01",
+      "endDate": "2016-05-01",
+      "highlights": [
+        "Worked on retail advice platform",
+        "Enterprise-scale Java application",
+        "AngularJS front end",
+        "Wrote unit tests and end to end tests using Cucumber"
+      ]
+    },
+    {
+      "name": "WebTek",
+      "position": "Front-end web developer",
+      "url": "https://wyl.co",
+      "startDate": "2008-05-01",
+      "endDate": "2013-06-01",
+      "highlights": [
+        "Developed websites for small and large busineses",
+        "Wordpress, eCommerce"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Temple University",
+      "url": "https://www.temple.edu/",
+      "area": "Information Science & Technology",
+      "studyType": "Bachelor",
+      "startDate": "2009-09-01",
+      "endDate": "2013-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Javascript",
+        "Typescript",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "keywords": [
+        "NodeJS",
+        "React",
+        "Electron",
+        "Redux",
+        "Rails"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "TDD",
+        "Jest",
+        "react-testing-library"
+      ]
+    },
+    {
+      "name": "Database",
+      "keywords": [
+        "MongoDB",
+        "Postgres",
+        "ElasticSearch",
+        "RethinkDB"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English"
+    },
+    {
+      "language": "Russian"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
