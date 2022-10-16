@@ -1,7 +1,9 @@
 name: Publish Resume PDF
 
 on:
-  deployment
+  deployment:
+
+  workflow_dispatch:
 
 jobs:
   deployment:
