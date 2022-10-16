@@ -1,0 +1,18 @@
+name: Publish Resume PDF
+
+on:
+  deployment
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: html to pdf
+        uses: misaelnieto/web_to_pdf_action@master
+        with:
+          webPageURL: https://nikorablin.io/resume/
+          outputFile: ./resume.pdf
+          usePuppeteer: true
+          useScreen: true
+          pdfOptions: '{"format": "Letter", "margin": {"top": "0", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
