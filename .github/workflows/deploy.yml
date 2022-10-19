@@ -1,9 +1,10 @@
 name: Deploy to Github Pages
 
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflow: [Release]
+    types:
+      - completed
 
   workflow_dispatch:
 
