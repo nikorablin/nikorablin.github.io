@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.0...v1.0.1) (2022-10-19)
+
+
+### Bug Fixes
+
+* Fix deploy workflow ([576e0ba](https://github.com/nikorablin/nikorablin.github.io/commit/576e0ba776d7afd8629220fa0028d12354ad4234))
+
 # 1.0.0 (2022-10-19)
 
 
