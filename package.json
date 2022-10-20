@@ -33,8 +33,6 @@
     "@types/react": "17.0.34",
     "@types/string-hash": "^1.1.1",
     "autoprefixer": "^10.4.0",
-    "commitizen": "^4.2.5",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "7",
     "eslint-config-next": "12.0.2",
     "eslint-config-prettier": "^8.5.0",
