@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.2...v1.0.3) (2022-10-28)
+
+
+### Bug Fixes
+
+* Update resume dates ([a0d1a4c](https://github.com/nikorablin/nikorablin.github.io/commit/a0d1a4c08401f9102953a3a52d23bb0cec23626c))
+
 ## [1.0.2](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.1...v1.0.2) (2022-10-28)
 
 
