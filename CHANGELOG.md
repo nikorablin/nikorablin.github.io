@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.3...v1.0.4) (2024-02-19)
+
+
+### Bug Fixes
+
+* Fix typo in Bio ([0850bd9](https://github.com/nikorablin/nikorablin.github.io/commit/0850bd9dd17799becb096d86db4dc7022b5869c2))
+* Update bio ([734a26c](https://github.com/nikorablin/nikorablin.github.io/commit/734a26c61eeb7e47be5a2b49e9bf1ecc15f268a4))
+* Update node ([f795206](https://github.com/nikorablin/nikorablin.github.io/commit/f7952069729d13d4c2a422800d935074b077ed8a))
+
 ## [1.0.3](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.2...v1.0.3) (2022-10-28)
 
 

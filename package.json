@@ -1,7 +1,7 @@
 {
   "name": "nikorablin.github.io",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "dev": "next dev & open http://localhost:3000",
     "build": "next build",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
     "@semantic-release/github": "^8.0.6",
