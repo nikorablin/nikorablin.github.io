@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.4...v1.0.5) (2024-07-23)
+
+
+### Bug Fixes
+
+* Fix build issues ([71a1f95](https://github.com/nikorablin/nikorablin.github.io/commit/71a1f952ebd339bfbe8aecc36e85fbce005ce8c8))
+
 ## [1.0.4](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.3...v1.0.4) (2024-02-19)
 
 
