@@ -1,8 +1,8 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Link from 'next/link';
-import ReactMarkdown from 'react-markdown';
-import content from '../content/Bio.md';
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import Link from 'next/link'
+import ReactMarkdown from 'react-markdown'
+import content from '../content/Bio.md'
 
 const Home: NextPage = () => {
   return (
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         </header>
 
         <main className="text-center leading-loose text-xl text-gray-500 p-5">
-          <ReactMarkdown children={content} />
+          <ReactMarkdown>{content}</ReactMarkdown>
         </main>
 
         <footer className="border-t-2 text-sm py-5 text-center text-gray-400">
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         </footer>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
