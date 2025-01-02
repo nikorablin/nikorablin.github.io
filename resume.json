@@ -30,9 +30,10 @@
       "url": "https://theknotww.com",
       "startDate": "2021-11-01",
       "highlights": [
-        "Manage a team of 5 engineers",
+        "Manage a team of 6 engineers",
         "Work on a large-scale React eCommerce platform",
-        "Node misroservices leveraging ElasticSearch and RabbitMQ"
+        "Node misroservices leveraging ElasticSearch and RabbitMQ",
+        "Developed a A/B testing library used across application"
       ]
     },
     {
