@@ -32,9 +32,9 @@
       "highlights": [
         "Manage a team of 6 engineers",
         "Work on a large-scale React eCommerce platform",
-        "Focused on product search using Algolia and migrating to ElasticSearch",
-        "Aided transition to a variant-based data model to unlock more product types",
-        "Developed an A/B testing library used across the application"
+        "Focused on product search using Algolia and migrating to ElasticSearch lowering cost and complexity",
+        "ransitioned to a variant-based data model to unlock more product types",
+        "Developed an A/B testing library doubling the team's experiment throughput"
       ]
     },
     {
@@ -51,14 +51,15 @@
       ]
     },
     {
-      "name": "Fin-tech start up",
+      "name": "Stealth mode Fin-tech start up",
       "position": "Senior Full-stack JS Engineer",
       "startDate": "2017-01-01",
       "endDate": "2018-03-01",
       "highlights": [
-        "Helped build a stealth financial research app from the ground up",
+        "Helped build a financial research app from the ground up",
         "NodeJS, React, Electron, RethinkDB",
-        "Built a chat feature, wrote batch jobs, and handled real-time data"
+        "Built an interactive chat feature",
+        "Worked with real-time ticker data"
       ]
     },
     {
@@ -68,8 +69,8 @@
       "startDate": "2016-05-01",
       "endDate": "2017-01-01",
       "highlights": [
+        "Landlord review platform that facilitated feedback for renters, enabling better rental decision-making",
         "Built the entire application from scratch",
-        "Application was a landlord review platform",
         "Built with Ruby on Rails and React",
         "Managed a few junior developers"
       ]
