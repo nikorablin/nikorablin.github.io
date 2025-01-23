@@ -32,8 +32,9 @@
       "highlights": [
         "Manage a team of 6 engineers",
         "Work on a large-scale React eCommerce platform",
-        "Node misroservices leveraging ElasticSearch and RabbitMQ",
-        "Developed a A/B testing library used across application"
+        "The team focused on product search using Algolia",
+        "Also worked on a registry product search product build with Node microservices leveraging ElasticSearch and RabbitMQ",
+        "Developed an A/B testing library used across the application"
       ]
     },
     {
@@ -43,10 +44,10 @@
       "startDate": "2018-04-01",
       "endDate": "2021-10-30",
       "highlights": [
-        "Worked as the lead enginner on a team of 6 engineers",
-        "Worked on React front-end applications for embedded devices",
-        "Built Typescript microservices on AWS Lambda",
-        "Emphasis on good, testable code"
+        "Worked as the lead engineer on a team of 6 engineers",
+        "Developed React front-end applications for embedded devices",
+        "Built TypeScript microservices on AWS Lambda",
+        "Focused on good, testable code"
       ]
     },
     {
@@ -57,7 +58,7 @@
       "highlights": [
         "Helped build a stealth financial research app from the ground up",
         "NodeJS, React, Electron, RethinkDB",
-        "Built chat feature, wrote batch jobs, dealt with realtime data"
+        "Built a chat feature, wrote batch jobs, and handled real-time data"
       ]
     },
     {
@@ -67,7 +68,7 @@
       "startDate": "2016-05-01",
       "endDate": "2017-01-01",
       "highlights": [
-        "Built the entire application from the start",
+        "Built the entire application from scratch",
         "Ruby on Rails and React",
         "Managed a few junior developers"
       ]
@@ -79,10 +80,10 @@
       "startDate": "2013-06-01",
       "endDate": "2016-05-01",
       "highlights": [
-        "Worked on retail advice platform",
+        "Worked on a retail advice platform",
         "Enterprise-scale Java application",
         "AngularJS front end",
-        "Wrote unit tests and end to end tests using Cucumber"
+        "Wrote unit tests and end-to-end tests using Cucumber"
       ]
     },
     {
@@ -92,8 +93,8 @@
       "startDate": "2008-05-01",
       "endDate": "2013-06-01",
       "highlights": [
-        "Developed websites for small and large busineses",
-        "Wordpress, eCommerce"
+        "Developed websites for small and large businesses",
+        "WordPress, eCommerce"
       ]
     }
   ],
@@ -111,8 +112,8 @@
     {
       "name": "Languages",
       "keywords": [
-        "Javascript",
-        "Typescript",
+        "JavaScript",
+        "TypeScript",
         "Ruby"
       ]
     },
