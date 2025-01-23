@@ -32,8 +32,8 @@
       "highlights": [
         "Manage a team of 6 engineers",
         "Work on a large-scale React eCommerce platform",
-        "The team focused on product search using Algolia",
-        "Also worked on a registry product search product build with Node microservices leveraging ElasticSearch and RabbitMQ",
+        "Focused on product search using Algolia and migrating to ElasticSearch",
+        "Aided transition to a variant-based data model to unlock more product types",
         "Developed an A/B testing library used across the application"
       ]
     },
@@ -69,7 +69,8 @@
       "endDate": "2017-01-01",
       "highlights": [
         "Built the entire application from scratch",
-        "Ruby on Rails and React",
+        "Application was a landlord review platform",
+        "Built with Ruby on Rails and React",
         "Managed a few junior developers"
       ]
     },
