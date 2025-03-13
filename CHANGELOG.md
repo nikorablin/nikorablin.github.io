@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.5...v1.1.0) (2025-03-13)
+
+
+### Features
+
+* Added summary ([7a0d7dc](https://github.com/nikorablin/nikorablin.github.io/commit/7a0d7dc72d53ed3776157cd19c7df79d5d9992bc))
+
 ## [1.0.5](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.4...v1.0.5) (2024-07-23)
 
 

@@ -1,7 +1,7 @@
 {
   "name": "nikorablin.github.io",
   "private": true,
-  "version": "1.0.5",
+  "version": "1.1.0",
   "scripts": {
     "dev": "next dev & open http://localhost:3000",
     "build": "next build",
