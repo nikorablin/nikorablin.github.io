@@ -42,7 +42,14 @@ const Resume: NextPage = () => {
       <div className="container mx-auto md:w-8/12">
         <Header basics={resume.basics} />
 
-        <main className="py-5 mb-5">{(Object.keys(resumeKeys) as Array<ResumeBodyKey>).map(renderSection)}</main>
+        <main className="py-5 mb-5">
+        <div className="grid grid-cols-resume gap-4 text-gray-700 mb-4">
+          <section>
+            <h3 className="text-lg">Summary</h3>
+          </section>
+          <section className={cx('grid', 'gap-4')}>{resume.basics.summary}</section>
+        </div>
+          {(Object.keys(resumeKeys) as Array<ResumeBodyKey>).map(renderSection)}</main>
       </div>
     </>
   )

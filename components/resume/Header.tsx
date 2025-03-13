@@ -10,8 +10,8 @@ export type ContactItem = {
   icon: IconProp;
 };
 
-type ContactKey = Exclude<keyof Basic, 'location' | 'name' | 'label' | 'profiles' | 'image' | 'summary'>;
-const basicsKeys: ContactKey[] = ['email', 'phone', 'url'];
+type ContactKey = Exclude<keyof Basic, 'name' | 'label' | 'profiles' | 'image' | 'summary'>;
+const basicsKeys: ContactKey[] = ['email', 'phone', 'url', 'location'];
 
 const contactItemMeta = {
   email: {
@@ -26,11 +26,22 @@ const contactItemMeta = {
     icon: 'link',
     prefix: '',
   },
+  location: {
+    prefix: '',
+    icon: 'globe'
+  }
 };
 
 const formatContactItem =
   (basics: Basic) =>
   (key: ContactKey): ContactItem => {
+    if (key === 'location') {
+      return {
+        key,
+        label: basics[key]?.region,
+        icon: contactItemMeta[key]?.icon as IconProp
+      }
+    }
     return {
       key,
       label: key === 'url' ? new URL(basics?.[key] || '').hostname : basics?.[key],
