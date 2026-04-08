@@ -26,10 +26,21 @@
   },
   "work": [
     {
+      "name": "HubSpot",
+      "position": "Front-end Tech Lead II",
+      "url": "https://hubspot.com",
+      "startDate": "2025-05-01",
+      "highlights": [
+        "Lead a front-end team of 5 engineers",
+        "Work on permissions platform team used across the organization"
+      ]
+    },
+    {
       "name": "The Knot",
       "position": "Engineering Manager",
       "url": "https://theknotww.com",
       "startDate": "2021-11-01",
+      "endDate": "2025-05-01",
       "highlights": [
         "Manage a team of 6 engineers",
         "Work on a large-scale React eCommerce platform",
