@@ -31,8 +31,10 @@
       "url": "https://hubspot.com",
       "startDate": "2025-05-01",
       "highlights": [
-        "Lead a front-end team of 5 engineers",
-        "Work on permissions platform team used across the organization"
+        "Lead a team of 5 engineers building a centralized permissions platform used across multiple product surfaces",
+        "Define frontend architecture and technical strategy for a complex, rules-driven system governing user access and feature entitlements",
+        "Partner with product, design, and backend teams to create intuitive UI abstractions over complex permission logic, improving usability and reducing implementation friction across teams",
+        "Led development of an AI-driven permissions platform that allows administrators to define and manage access control through natural language, reducing complexity and improving usability of a traditionally technical system"
       ]
     },
     {
@@ -42,11 +44,11 @@
       "startDate": "2021-11-01",
       "endDate": "2025-05-01",
       "highlights": [
-        "Manage a team of 6 engineers",
-        "Work on a large-scale React eCommerce platform",
-        "Focused on product search using Algolia and migrating to ElasticSearch lowering cost and complexity",
-        "Transitioned to a variant-based data model to unlock more product types",
-        "Developed an A/B testing library doubling the team's experiment throughput"
+        "Led a team of 6 engineers building a large-scale React eCommerce platform serving millions of users",
+        "Designed and implemented an internal A/B testing platform, doubling experiment throughput and enabling product and marketing teams to independently launch and analyze experiments",
+        "Led migration from Algolia to ElasticSearch, reducing infrastructure cost and increasing flexibility in search customization",
+        "Architected a variant-based data model that unlocked new product capabilities and simplified downstream integrations",
+        "Collaborated closely with product, design, and business stakeholders to align technical solutions with growth and user experience goals"
       ]
     },
     {
@@ -56,10 +58,9 @@
       "startDate": "2018-04-01",
       "endDate": "2021-10-30",
       "highlights": [
-        "Worked as the lead engineer on a team of 6 engineers",
-        "Developed React front-end applications for embedded devices",
-        "Built TypeScript microservices on AWS Lambda",
-        "Focused on good, testable code"
+        "Led development of React-based applications for embedded fitness devices, delivering performant and intuitive user experiences",
+        "Designed and built serverless microservices (Node.js, AWS Lambda) supporting real-time data processing and device communication",
+        "Established best practices for testing and maintainability across frontend and backend systems"
       ]
     },
     {
@@ -68,10 +69,9 @@
       "startDate": "2017-01-01",
       "endDate": "2018-03-01",
       "highlights": [
-        "Helped build a financial research app from the ground up",
-        "NodeJS, React, Electron, RethinkDB",
-        "Built an interactive chat feature",
-        "Worked with real-time ticker data"
+        "Built a real-time financial research platform from the ground up using React, Node.js, and Electron",
+        "Implemented live data streaming features for stock ticker updates and user interactions",
+        "Developed interactive chat functionality to support collaborative analysis workflows"
       ]
     },
     {
@@ -124,38 +124,36 @@
   ],
   "skills": [
     {
-      "name": "Languages",
+      "name": "Frontend",
       "keywords": [
-        "JavaScript",
         "TypeScript",
-        "Ruby"
-      ]
-    },
-    {
-      "name": "Frameworks",
-      "keywords": [
-        "NodeJS",
         "React",
-        "Electron",
-        "Redux",
-        "Rails"
+        "React Testing Library"
       ]
     },
     {
-      "name": "Testing",
+      "name": "Backend",
       "keywords": [
-        "TDD",
-        "Jest",
-        "react-testing-library"
+        "Node.js",
+        "Ruby on Rails",
+        "Java"
       ]
     },
     {
-      "name": "Database",
+      "name": "Architecture",
       "keywords": [
-        "MongoDB",
-        "Postgres",
+        "Microservices",
+        "Serverless",
+        "Event driven systems"
+      ]
+    },
+    {
+      "name": "Data & Search",
+      "keywords": [
         "ElasticSearch",
-        "RethinkDB"
+        "Postgres",
+        "MongoDB",
+        "Algolia"
       ]
     }
   ],
