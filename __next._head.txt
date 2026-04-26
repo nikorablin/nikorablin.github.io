@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[5512,[],"ViewportBoundary"]
+3:I[5512,[],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[7553,[],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Nik Korablin | Full-Stack JS Engineer"}],["$","meta","1",{"name":"description","content":"I am a full-stack Javascript engineer working remotely from Lancaster, PA"}],["$","link","2",{"rel":"icon","href":"/favicon.svg"}],["$","$L5","3",{}]]}]}]}],null]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"TjkJ2Fsk3bA0liG5QcOVf"}
