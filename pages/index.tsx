@@ -1,10 +1,13 @@
-import type { NextPage } from 'next'
+import { readFile } from 'fs/promises'
+import path from 'path'
+import type { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
-import content from '../content/Bio.md'
 
-const Home: NextPage = () => {
+type HomeProps = InferGetStaticPropsType<typeof getStaticProps>
+
+const Home: NextPage<HomeProps> = ({ content }) => {
   return (
     <>
       <Head>
@@ -37,3 +40,14 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
+export const getStaticProps: GetStaticProps<{ content: string }> = async () => {
+  const contentPath = path.join(process.cwd(), 'content', 'Bio.md')
+  const content = await readFile(contentPath, 'utf8')
+
+  return {
+    props: {
+      content,
+    },
+  }
+}

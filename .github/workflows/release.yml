@@ -23,8 +23,6 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-      - name: Install semantic-release extra plugins
-        run: pnpm add -D @semantic-release/changelog @semantic-release/git
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
