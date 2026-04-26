@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/nikorablin/nikorablin.github.io/compare/v1.2.0...v1.3.0) (2026-04-26)
+
+
+### Features
+
+* **app:** migrate site to next 16 app router ([842112e](https://github.com/nikorablin/nikorablin.github.io/commit/842112e55ed56e512745e7445a6d0a545123f18d))
+
 # [1.2.0](https://github.com/nikorablin/nikorablin.github.io/compare/v1.1.0...v1.2.0) (2026-04-26)
 
 
