@@ -19,8 +19,21 @@ const resumeKeys: { [k in ResumeBodyKey]: string } = {
   education: 'Education',
 }
 
+const getResumeItemKey = (item: ResumeItemType, index: number): string => {
+  if ('position' in item && item.position !== undefined) {
+    return `work-${item.name || index}-${item.startDate || 'unknown'}`
+  }
+  if ('institution' in item && item.institution !== undefined) {
+    return `education-${item.institution}-${item.startDate || 'unknown'}`
+  }
+  if ('keywords' in item && item.keywords !== undefined) {
+    return `skill-${item.name || index}`
+  }
+  return `resume-item-${index}`
+}
+
 const renderSectionItem = (items: ResumeItemType[]): ReactNode =>
-  items.map((item) => <ResumeItem item={item} key={item.name} />)
+  items.map((item, index) => <ResumeItem item={item} key={getResumeItemKey(item, index)} />)
 
 const renderSection = (key: ResumeBodyKey): ReactNode => (
   <div className="grid grid-cols-resume gap-4 text-gray-700 mb-4" key={key}>
