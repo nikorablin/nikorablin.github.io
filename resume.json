@@ -81,10 +81,22 @@
       "startDate": "2016-05-01",
       "endDate": "2017-01-01",
       "highlights": [
-        "Landlord review platform that facilitated feedback for renters, enabling better rental decision-making",
-        "Built the entire application from scratch",
-        "Built with Ruby on Rails and React",
-        "Managed a few junior developers"
+        {
+          "text": "Landlord review platform that facilitated feedback for renters, enabling better rental decision-making",
+          "noPrint": true
+        },
+        {
+          "text": "Built the entire application from scratch",
+          "noPrint": true
+        },
+        {
+          "text": "Built with Ruby on Rails and React",
+          "noPrint": true
+        },
+        {
+          "text": "Managed a few junior developers",
+          "noPrint": true
+        }
       ]
     },
     {
@@ -94,10 +106,22 @@
       "startDate": "2013-06-01",
       "endDate": "2016-05-01",
       "highlights": [
-        "Worked on a retail advice platform",
-        "Enterprise-scale Java application",
-        "AngularJS front end",
-        "Wrote unit tests and end-to-end tests using Cucumber"
+        {
+          "text": "Worked on a retail advice platform",
+          "noPrint": true
+        },
+        {
+          "text": "Enterprise-scale Java application",
+          "noPrint": true
+        },
+        {
+          "text": "AngularJS front end",
+          "noPrint": true
+        },
+        {
+          "text": "Wrote unit tests and end-to-end tests using Cucumber",
+          "noPrint": true
+        }
       ]
     },
     {
@@ -107,8 +131,14 @@
       "startDate": "2008-05-01",
       "endDate": "2013-06-01",
       "highlights": [
-        "Developed websites for small and large businesses",
-        "WordPress, eCommerce"
+        {
+          "text": "Developed websites for small and large businesses",
+          "noPrint": true
+        },
+        {
+          "text": "WordPress, eCommerce",
+          "noPrint": true
+        }
       ]
     }
   ],

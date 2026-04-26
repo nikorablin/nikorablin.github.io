@@ -184,8 +184,15 @@ export interface Work extends Occupation {
   summary?: string;
 
   /** Accomplishments achieved during the position. */
-  highlights?: string[];
+  highlights?: WorkHighlight[];
 }
+
+export type WorkHighlight =
+  | string
+  | {
+      text: string;
+      noPrint?: boolean;
+    };
 
 export interface Volunteer extends Occupation {
   /** e.g. Facebook */
