@@ -3,6 +3,7 @@ import path from 'path'
 import type { GetStaticProps, InferGetStaticPropsType, NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import React from 'react'
 import ReactMarkdown from 'react-markdown'
 
 type HomeProps = InferGetStaticPropsType<typeof getStaticProps>
