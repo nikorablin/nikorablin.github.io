@@ -1,6 +1,0 @@
-node_modules
-generators
-.next
-/*.js
-*.hbs
-out
