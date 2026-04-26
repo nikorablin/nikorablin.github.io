@@ -1,3 +1,16 @@
+# [1.2.0](https://github.com/nikorablin/nikorablin.github.io/compare/v1.1.0...v1.2.0) (2026-04-26)
+
+
+### Bug Fixes
+
+* **ci:** install pnpm in github actions ([19b15ef](https://github.com/nikorablin/nikorablin.github.io/commit/19b15ef02c30e43a044380c0bd791ca243c88565))
+* **resume:** resolve react rendering warnings ([e011e35](https://github.com/nikorablin/nikorablin.github.io/commit/e011e3563515699b5648c03290f0ddfa5f4947dd))
+
+
+### Features
+
+* **resume:** support hiding highlights in print ([0860230](https://github.com/nikorablin/nikorablin.github.io/commit/0860230276733b685b12810f9b4ae2eedcd9bcef))
+
 # [1.1.0](https://github.com/nikorablin/nikorablin.github.io/compare/v1.0.5...v1.1.0) (2025-03-13)
 
 
