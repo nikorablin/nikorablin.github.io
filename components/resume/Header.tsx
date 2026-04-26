@@ -62,7 +62,7 @@ const formatProfiles = (profile: Profile): ContactItem => {
 
 export const Header = ({ basics }: { basics: Basic }) => {
   return (
-    <header className="flex py-5 items-center border-b-2 text-gray-700">
+    <header className="flex py-5 items-center border-b-2 border-gray-200 text-gray-700">
       <div className="flex-grow">
         <h1 className="text-4xl font-bold">{basics?.name}</h1>
         <h2 className="text-xl text-gray-400">{basics?.label}</h2>

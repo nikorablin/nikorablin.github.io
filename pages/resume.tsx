@@ -36,7 +36,7 @@ const renderSectionItem = (items: ResumeItemType[]): ReactNode =>
   items.map((item, index) => <ResumeItem item={item} key={getResumeItemKey(item, index)} />)
 
 const renderSection = (key: ResumeBodyKey): ReactNode => (
-  <div className="grid grid-cols-resume gap-4 text-gray-700 mb-4" key={key}>
+  <div className="grid grid-cols-[25%_1fr] gap-4 text-gray-700 mb-4" key={key}>
     <section>
       <h3 className="text-lg">{resumeKeys[key]}</h3>
     </section>
@@ -56,7 +56,7 @@ const Resume: NextPage = () => {
         <Header basics={resume.basics} />
 
         <main className="py-5 mb-5">
-        <div className="grid grid-cols-resume gap-4 text-gray-700 mb-4">
+        <div className="grid grid-cols-[25%_1fr] gap-4 text-gray-700 mb-4">
           <section>
             <h3 className="text-lg">Summary</h3>
           </section>
