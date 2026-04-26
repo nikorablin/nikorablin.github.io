@@ -398,5 +398,5 @@ export interface Meta {
   version?: string;
 
   /** The date that the résumé was last modified. */
-  lastModified?: Date;
+  lastModified?: string;
 }

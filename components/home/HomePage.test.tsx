@@ -1,6 +1,7 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import HomePage, { getStaticProps } from './index'
+import HomePage from './HomePage'
+import { loadBioContent } from '../../lib/content'
 
 describe('home page', () => {
   it('renders supplied content and nav links', () => {
@@ -14,12 +15,8 @@ describe('home page', () => {
   })
 
   it('loads markdown content from disk', async () => {
-    const result = await getStaticProps({} as never)
+    const content = await loadBioContent()
 
-    if (!('props' in result)) {
-      throw new Error('Expected static props result')
-    }
-
-    expect(result.props.content).toContain('full-stack Javascript developer')
+    expect(content).toContain('full-stack Javascript developer')
   })
 })

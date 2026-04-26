@@ -1,10 +1,11 @@
 import React from 'react'
 import { render, screen } from '@testing-library/react'
-import ResumePage from './resume'
+import ResumePage from './ResumePage'
+import resume from '../../resume.json'
 
 describe('resume page', () => {
   it('renders the main resume sections', () => {
-    render(<ResumePage />)
+    render(<ResumePage resume={resume} />)
 
     expect(screen.getByRole('heading', { name: 'Summary' })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: 'Work Experience' })).toBeInTheDocument()
@@ -13,7 +14,7 @@ describe('resume page', () => {
   })
 
   it('renders known resume content', () => {
-    render(<ResumePage />)
+    render(<ResumePage resume={resume} />)
 
     expect(screen.getByText('Nik Korablin')).toBeInTheDocument()
     expect(screen.getByText('HubSpot')).toBeInTheDocument()

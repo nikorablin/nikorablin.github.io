@@ -12,7 +12,7 @@ const getHighlightText = (highlight: WorkHighlight): string =>
 const getHighlightClassName = (highlight: WorkHighlight): string | undefined =>
   typeof highlight === 'string' ? undefined : cx({ 'no-print': highlight.noPrint })
 
-const WorkItem = ({ item }: { item: Work }): JSX.Element => (
+const WorkItem = ({ item }: { item: Work }): React.JSX.Element => (
   <div>
     <h3>{item.name}</h3>
     <h4 className="text-gray-400">
@@ -28,7 +28,7 @@ const WorkItem = ({ item }: { item: Work }): JSX.Element => (
   </div>
 )
 
-const EducationItem = ({ item }: { item: Education }): JSX.Element => (
+const EducationItem = ({ item }: { item: Education }): React.JSX.Element => (
   <div>
     <h3>{item.institution}</h3>
     <h4 className="text-gray-400">
@@ -37,14 +37,14 @@ const EducationItem = ({ item }: { item: Education }): JSX.Element => (
   </div>
 )
 
-const SkillItem = ({ item }: { item: Skill }): JSX.Element => (
+const SkillItem = ({ item }: { item: Skill }): React.JSX.Element => (
   <div>
     <h3>{item.name}</h3>
     <h4 className="text-gray-400">{item.keywords?.join(', ')}</h4>
   </div>
 )
 
-const ResumeItem = ({ item }: { item: ResumeItemType }): JSX.Element => {
+const ResumeItem = ({ item }: { item: ResumeItemType }): React.JSX.Element => {
   if ((item as Work).position !== undefined) {
     return <WorkItem item={item} />
   }
