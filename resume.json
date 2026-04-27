@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Nik Korablin",
-    "label": "Full-stack JS Engineer",
+    "label": "Full-stack JavaScript Engineer",
     "email": "nikorablin@gmail.com",
     "phone": "7178240189",
-    "url": "http://nikorablin.io",
+    "url": "https://nikorablin.io",
     "location": {
       "postalCode": "PA 17543",
       "city": "Lititz",
@@ -18,11 +18,11 @@
         "url": "https://linkedin.com/in/nikorablin"
       },
       {
-        "network": "Github",
+        "network": "GitHub",
         "url": "https://github.com/nikorablin"
       }
     ],
-    "summary": "Experienced Engineering Manager and Full-stack JavaScript Engineer with a proven track record of leading high-performing teams and delivering scalable, data-driven solutions. Skilled in React, Node.js, TypeScript, and cloud-native architectures. Adept at optimizing search technologies, building robust A/B testing frameworks, and driving product innovation. Value  writing clean, testable code and mentoring engineers to achieve their full potential."
+    "summary": "Experienced Engineering Manager and full-stack JavaScript engineer with a proven track record of leading high-performing teams and delivering scalable, data-driven solutions. Skilled in React, Node.js, TypeScript, and cloud-native architectures. Adept at optimizing search technologies, building robust A/B testing frameworks, and driving product innovation. I value writing clean, testable code and mentoring engineers to achieve their full potential."
   },
   "work": [
     {
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "name": "Stealth mode Fin-tech start up",
+      "name": "Stealth-mode fintech startup",
       "position": "Senior Full-stack JS Engineer",
       "startDate": "2017-01-01",
       "endDate": "2018-03-01",
@@ -77,7 +77,7 @@
     {
       "name": "WhoseYourLandlord.com",
       "position": "CTO",
-      "url": "https://wyl.co",
+      "url": "https://www.wyl.co/",
       "startDate": "2016-05-01",
       "endDate": "2017-01-01",
       "highlights": [
@@ -90,11 +90,11 @@
           "noPrint": true
         },
         {
-          "text": "Built with Ruby on Rails and React",
+          "text": "Built the platform with Ruby on Rails and React",
           "noPrint": true
         },
         {
-          "text": "Managed a few junior developers",
+          "text": "Managed junior developers",
           "noPrint": true
         }
       ]
@@ -115,7 +115,7 @@
           "noPrint": true
         },
         {
-          "text": "AngularJS front end",
+          "text": "AngularJS frontend",
           "noPrint": true
         },
         {
@@ -126,8 +126,8 @@
     },
     {
       "name": "WebTek",
-      "position": "Front-end web developer",
-      "url": "https://wyl.co",
+      "position": "Front-end Web Developer",
+      "url": "http://webtekcc.com",
       "startDate": "2008-05-01",
       "endDate": "2013-06-01",
       "highlights": [
@@ -136,7 +136,7 @@
           "noPrint": true
         },
         {
-          "text": "WordPress, eCommerce",
+          "text": "WordPress, e-commerce",
           "noPrint": true
         }
       ]
@@ -174,13 +174,13 @@
       "keywords": [
         "Microservices",
         "Serverless",
-        "Event driven systems"
+        "Event-driven systems"
       ]
     },
     {
       "name": "Data & Search",
       "keywords": [
-        "ElasticSearch",
+        "Elasticsearch",
         "Postgres",
         "MongoDB",
         "Algolia"

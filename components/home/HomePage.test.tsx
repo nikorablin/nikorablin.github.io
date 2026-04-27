@@ -17,6 +17,6 @@ describe('home page', () => {
   it('loads markdown content from disk', async () => {
     const content = await loadBioContent()
 
-    expect(content).toContain('full-stack Javascript developer')
+    expect(content).toContain('full-stack JavaScript engineer')
   })
 })
